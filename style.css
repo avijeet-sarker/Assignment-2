@@ -2,23 +2,20 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
-}
-
+   }
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
- 
 }
- 
-nav{
+ nav{
     display: flex;
     width: 1600px;
     height: 92px;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    background-color: #1A0B2E;
-   border-bottom: 1px solid white;
+   border-bottom: 1px solid #965ce3;
+   padding: 0px 200px;
 }
 .inner{
     width: 219px;
@@ -36,7 +33,7 @@ nav{
     width: 218px;
     height: 19px;
    list-style: none;
-   margin: 16px 24px;
+   font-size: 16px;
 
 }
    .list a {
@@ -56,4 +53,57 @@ nav{
  color:#FFFFFF;
  font-size: 16px;
  font-weight: semi bold;
+}
+section{
+    width: 1600px;
+    height: 760px;
+    background-image: url('assets/hero-bg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.head{
+    width: 550px;
+    height: 559px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.as{
+    width: 550px;
+    height: 100px;
+    gap: 8px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+.pra{
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    gap: 10px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 18px;
+     padding: 16px 8px ;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: -50px;
+    right: -250px;
+    z-index: 1;
+}
+.box{
+    position: relative;
+}
+.micro{
+    top:-270px;
+    right: -110px;
+}
+#hero{
+    gap: 24px;
 }
