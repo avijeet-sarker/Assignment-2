@@ -21,6 +21,8 @@
     width: 219px;
     height: 32px;
     color: #FFFFFF;
+    font-size: 38px;
+    
 }
 #wbc{
     background:linear-gradient( 45deg ,#F7E93F,#FB09B4,#9100F8);
@@ -67,19 +69,22 @@ section{
     width: 550px;
     height: 559px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
 }
 .as{
     width: 550px;
     height: 100px;
     gap: 8px;
     color: #FFFFFF;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .pra{
     width: 75px;
     height: 38px;
@@ -104,6 +109,44 @@ section{
     top:-270px;
     right: -110px;
 }
-#hero{
+.hero{
     gap: 24px;
+    top:-200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+.hebtn{
+    width: 356px;
+    height: 44px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 201px;
+    height: 44px;
+    gap: 8px;
+    padding: 20px 12px;
+    border-radius: 10000px;
+    background: linear-gradient( 45deg ,#F7E93F,#FB09B4,#9100F8);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn3{
+     width: 147px;
+    height: 44px;
+    gap: 8px;
+    padding: 20px 12px;
+    border-radius: 10000px;
+    background: none ;
+    color: #00FF88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00FF88;
+
 }
