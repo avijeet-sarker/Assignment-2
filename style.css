@@ -56,6 +56,8 @@
  font-size: 16px;
  font-weight: semi bold;
  border: none;
+ position: relative;
+ animation: tab 2s ease-in-out infinite alternate;
 }
 .content{
     width: 1600px;
@@ -492,4 +494,12 @@ gap:30px;
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+@keyframes tab{
+    from{
+        left:0px;
+    }
+    to{
+        left: 60px;
+    }
 }
